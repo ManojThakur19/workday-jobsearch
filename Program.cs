@@ -5,7 +5,6 @@ namespace JobListingsTable;
 
 public class JobListing
 {
-    
     [JsonPropertyName("date_posted")]
     public DateTime? DatePosted { get; set; }
 
